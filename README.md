@@ -1,2 +1,2 @@
-# linux
-some thing about Linux
+使用Linux的rz上传文件失败，提示Transferring 但是没有上传进度显示
+后来才发现是因为rz操作上传文件是无法覆盖原文件的，所以要先删除原文件后进行上传就可以了
